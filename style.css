@@ -56,9 +56,10 @@ button {
   cursor: pointer;
   display: flex;
   align-items: center;
-} button img{
+}
+button img {
   width: 16px;
-  margin-right: 10px;;
+  margin-right: 10px;
 }
 
 select {
@@ -70,6 +71,10 @@ select {
   height: 50px;
   background: #403d84;
   color: #fff;
-
-
+  appearance: none;
+  background-image: url("/dropdown.png");
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-x: calc(100% - 20px);
+  background-position-y: 20px;
 }
